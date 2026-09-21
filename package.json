@@ -1,0 +1,26 @@
+{
+  "name": "@alvaroak/pi-centered-slash-menu",
+  "version": "0.1.0",
+  "description": "Centered autocomplete overlay menu for slash commands in the Pi coding agent",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "commands",
+    "autocomplete"
+  ],
+  "files": [
+    "centered-slash-menu.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./centered-slash-menu.ts"
+    ]
+  }
+}
